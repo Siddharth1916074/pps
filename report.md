@@ -1,4 +1,4 @@
-![Sddharth Patel.html]
+![abcde.png](https://www.gndec.ac.in/sites/default/logo.png)
 
 Submitted By: Siddharth Patel
 
