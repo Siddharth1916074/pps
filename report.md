@@ -11,7 +11,7 @@ University Roll No: 1905155
 Batch: 2019-2023
 ----
 Experiment1 :Write a code to print FOX
-
+````C
 #include<stdio.h>
 int main()
 {
@@ -32,8 +32,9 @@ Output:
 ##        ####        ####        ###   ###
 ##        ####        ####     ###         ###
 ##            ########     ####               ####
+`````
 Experiment2 :Design a code to execute addition of two numbers.
-
+````C
 #include<stdio.h>
 int main()
 {
@@ -48,8 +49,11 @@ Output:
 5
 9
 14
+`````
 Experiment3 :Write a computer program in C, which takes two numbers (integers) as input and print the smaller number.
-
+````C
+#include<stdio.h>
+int main()
 {
 int x,y;    
     printf("\n\t enter any two number\n");
@@ -69,9 +73,9 @@ Output:
 67
 54
 67
+``````
 experiment4 :Write a C program to print the following character in a reverse way without using any predefined function and header file.
-
-{
+````C
 #include<stdio.h>
 int main()
 {
@@ -83,8 +87,9 @@ return 0;
 Output:
 
 RAM is MAR
+`````
 Experiment5 :Write a C program to compute the perimeter and area of a rectangle with a height of 7 inches and width of 5 inches.
-
+````C
 #include<stdio.h>
 int main()
 {
@@ -103,11 +108,11 @@ Perimeter of the rectangle: 24 inches
 
 
 Area of the rectangle = 35 square inches
-
+`````
 Experiment6 : Design a code to execute addition of two numbers if the sum is even.
 
 Display a message Even otherwise Odd.
-
+````C
 #include<stdio.h>
 int main()
 {
@@ -124,10 +129,11 @@ Output:
 
 52 3
 Odd
+`````
 experiment7 :Design a code to mark 'Present' if student entered in a hall before 8:35 and marked 'Late' before 8:45 otherwise marked 'Absent'.
 
 If user will enter the time between 8:00 - 8:14 then display a message 'Sorry Gate closed' and if user will enter the time less than 8:00 then display a message 'Its wrong Time'.
-
+````C
 #include<stdio.h>
 int main()
 {
@@ -174,8 +180,9 @@ Output:
 
 732                                                                             
 Sorry Gate closed                                                               
+`````
 Experiment8 :Write a code to convert temperature from Fahrenheit scale to centigrade scale.
-
+````C
 #include<stdio.h>
 int main()
 {
@@ -195,8 +202,9 @@ Output:
 67.00
 Fahrenheit scale: 67.00
 Centigrade scale: 19.44
+````
 Experiment10 :Write a code to find the factorial of a number.
-
+````C
 #include<stdio.h>
 int main()
 {
@@ -214,8 +222,9 @@ Output:
 
 6
 720
+`````
 Experiment11 :write a code to play Fizzbuzz.
-
+````C
 #include<stdio.h>
 int main()
 {
@@ -233,6 +242,7 @@ else
 {
 i%3==0?printf("FIZZ"):printf("%d ",i);
 }
+
  }
  return 0;
 }
